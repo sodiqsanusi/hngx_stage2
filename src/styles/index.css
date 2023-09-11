@@ -1,0 +1,41 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  background-color: #0a8ea5;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+#root {
+  isolation: isolate;
+}
+
+/* Initializing CSS Variables for colors and sizes */
+
+:root {
+  --white: #ffffff;
+  --rose700: #be123c;
+  --gray300: #d1d5db;
+  --gray400: #9CA3AF; 
+}
