@@ -1,0 +1,30 @@
+.moviePosterHead {
+  height: 40%;
+  width: 100%;
+  padding: 1em .2em;
+  background-color: gray;
+  /* background-image: url("https://image.tmdb.org/t/p/original/8pjWz2lt29KyVGoq1mXYu6Br7dE.jpg"); */
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  display: grid;
+  grid-template-areas: "logo signInHamburger"
+                        "search search";
+  align-items: center;
+  z-index: 2;
+  position: relative;
+}
+
+.darkCover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.67);
+  z-index: 1;
+}
