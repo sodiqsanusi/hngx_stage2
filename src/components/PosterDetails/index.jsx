@@ -12,11 +12,11 @@ const PosterDetails = ({poster_movie}) => {
       <div className={styles.rating}>
         <div>
           <div><img src={imdb} alt="IMDB rating" /></div>
-          <p>97%</p>
+          <p>86.0 / 100</p>
         </div>
         <div>
           <div><img src={rottenTomatoes} alt="Rotten Tomatoes rating" /></div>
-          <p>86.0 / 100</p>
+          <p>97%</p>
         </div>
       </div>
       <p>{poster_movie.overview}</p>

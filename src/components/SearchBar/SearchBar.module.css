@@ -29,3 +29,9 @@
   outline: none;
   border: none;
 }
+
+@media (min-width: 800px) {
+  .searchContainer {
+    margin-top: 0;
+  }
+}

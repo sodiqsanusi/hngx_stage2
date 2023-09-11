@@ -49,3 +49,17 @@
   text-transform: uppercase;
   font-size: .95rem;
 }
+
+
+/* Media Queries for large screen responsiveness */
+@media (min-width: 800px) {
+  .articleContainer {
+    margin: 2.5em 0;
+    max-width: 500px;
+    margin-left: 11%;
+  }
+  .rating {
+    max-width: 300px;
+    margin-bottom: 1em;
+  }
+}
