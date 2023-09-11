@@ -1,3 +1,31 @@
 .searchContainer {
   grid-area: search;
+  margin-top: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.searchInput {
+  width: 98%;
+  padding: 6px 10px;
+  border: 2px solid var(--gray300);
+  background-color: transparent;
+  border-radius: 6px;
+  color: var(--white);
+  outline: none;
+} .searchInput::placeholder {
+  color: #e6dedeaf;
+}
+
+.searchIconContainer {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+  background-color: transparent;
+  outline: none;
+  border: none;
 }
