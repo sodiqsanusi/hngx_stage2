@@ -1,4 +1,4 @@
-{
+let JsonData = {
   "page": 1,
   "results": [
     {
@@ -407,3 +407,7 @@
   "total_pages": 39973,
   "total_results": 799446
 }
+
+// let formattedData = JSON.parse(JsonData);
+
+export default JsonData;

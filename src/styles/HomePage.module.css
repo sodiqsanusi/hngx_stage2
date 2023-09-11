@@ -1,0 +1,15 @@
+.moviePosterHead {
+  height: 40%;
+  background-color: aquamarine;
+  width: 100%;
+  padding: 1em .2em;
+}
+
+.header {
+  display: grid;
+  grid-template-areas: "logo signInHamburger"
+                        "search search";
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 1px 20px 20px rgba(0, 0, 0, 0.4);
+}

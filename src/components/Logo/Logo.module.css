@@ -1,0 +1,4 @@
+.logoDiv {
+  grid-area: logo;
+  width: 80%;
+}
