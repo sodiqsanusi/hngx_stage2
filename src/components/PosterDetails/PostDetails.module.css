@@ -1,0 +1,51 @@
+.articleContainer {
+  color: var(--white);
+  padding: 1em .5em;
+  max-width: 650px;
+  position: relative;
+  z-index: 2;
+}
+
+.articleContainer h1 {
+  font-size: 1.75rem;
+  margin-bottom: .5em;
+}
+
+.rating {
+  margin: .3em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating > div {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  column-gap: .5em;
+  justify-content:baseline;
+}
+
+.rating > div p {
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+.trailerButton {
+  margin-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8px;
+  outline: none;
+  border: none;
+  background-color: var(--rose700);
+  color: var(--white);
+  width: 70%;
+  max-width: 180px;
+  padding: .45em .25em;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: .95rem;
+}
