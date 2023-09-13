@@ -11,7 +11,7 @@
 }
 html, body {
   height: 100%;
-  background-color: #0a8ea5;
+  background-color: #ffffff;
 }
 body {
   line-height: 1.5;
@@ -37,7 +37,9 @@ p, h1, h2, h3, h4, h5, h6 {
   --white: #ffffff;
   --rose700: #be123c;
   --gray300: #d1d5db;
-  --gray400: #9CA3AF; 
+  --gray400: #9CA3AF;
+  --gray500: #6B7280;
+  --gray900: #111827;
 }
 
 /* To remove the "X" icon which is default in an input[search] tag */

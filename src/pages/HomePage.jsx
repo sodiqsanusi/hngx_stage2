@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Logo from "../components/Logo";
 import PosterDetails from "../components/PosterDetails";
 import SearchBar from "../components/SearchBar";
@@ -26,6 +27,7 @@ const HomePage = () => {
       <main>
         Main Movie Grid here
       </main>
+      <Footer />
     </>
   );
 }
