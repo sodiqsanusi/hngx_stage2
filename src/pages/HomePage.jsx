@@ -1,5 +1,6 @@
 import Footer from "../components/Footer";
 import Logo from "../components/Logo";
+import MovieCard from "../components/MovieCard";
 import PosterDetails from "../components/PosterDetails";
 import SearchBar from "../components/SearchBar";
 import SignInHamburger from "../components/SignInHamburger";
@@ -8,7 +9,7 @@ import JsonData from "../util/placeholder";
 
 const HomePage = () => {
 
-  const randomNo = Math.floor(Math.random() * 5);
+  const randomNo = Math.floor(Math.random() * 10);
   let poster_movie = JsonData.results[randomNo];
   let poster_movie_bg = "https://image.tmdb.org/t/p/original" + JsonData.results[randomNo].backdrop_path;
   // console.log(JsonData.results.slice(0, 10));
@@ -24,8 +25,8 @@ const HomePage = () => {
         </header>
         <PosterDetails poster_movie={poster_movie}/>
       </section>
-      <main>
-        Main Movie Grid here
+      <main className={styles.testingCard}>
+        <MovieCard movieDetails={poster_movie}/>
       </main>
       <Footer />
     </>

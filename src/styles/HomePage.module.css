@@ -29,6 +29,15 @@
   z-index: 1;
 }
 
+.testingCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 1em;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
 @media (min-width: 800px) {
   .header {
     justify-content: space-between;

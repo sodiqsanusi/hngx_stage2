@@ -1,0 +1,44 @@
+.cardLink {
+  display: block;
+  text-decoration: none;
+  color: initial;
+  width: 100%;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.posterImg {
+  position: relative;
+}
+.favouriteBtn {
+  cursor: pointer;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 5%;
+  right: 5%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f4f64e;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding: .25em .5em;
+  box-shadow: -10px 10px 15px 15px rgba(0, 0, 0, 0.7),
+               5px -5px 10px 10px rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+.favouriteBtn svg {
+  color: #ffffff;
+}
+.favouriteBtn:hover svg, .favouriteBtn:focus svg{
+  color: #C51605;
+} .favouriteBtn:hover, .favouriteBtn:hover{
+  background-color: #f48f8629;
+}
